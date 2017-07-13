@@ -1,0 +1,39 @@
+{
+  "name": "WH",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "description": "Front End Automation pack",
+  "scripts": {
+    "tsc": "tsc && typedoc --out ./typedocreport",
+    "test": "protractor JavaScript/config/config.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
+  },
+  "contributors": [
+    {
+      "name": "Srihari Krishnamurthy",
+      "email": "srihari.krishnamurthy@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "@types/chai": "4.0.0",
+    "@types/cucumber": "2.0.1",
+    "@types/node": "7.0.29",
+    "@types/selenium-webdriver": "3.0.4",
+    "cucumber-html-reporter": "2.0.0",
+    "mkdirp": "0.5.1",
+    "opn": "5.0.0",
+    "sync-request": "4.1.0",
+    "typedoc": "0.7.1"
+  },
+  "dependencies": {
+    "chai": "4.0.2",
+    "cucumber": "2.3.1",
+    "moment": "2.18.1",
+    "protractor": "5.1.2",
+    "protractor-cucumber-framework": "3.1.2",
+    "ts-node": "3.0.6",
+    "typescript": "2.3.4"
+  },
+  "repository": "tbc"
+}
